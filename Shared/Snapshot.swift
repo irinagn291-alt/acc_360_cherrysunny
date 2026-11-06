@@ -16,11 +16,7 @@ struct CompanionSnapshot: Codable, Equatable {
     static let empty = CompanionSnapshot(title: Brand.section, value: "Nothing saved yet", detail: Brand.hint, items: [], updated: .distantPast)
     static let key = "companion.snapshot.v1"
     static var defaults: UserDefaults {
-        #if os(watchOS)
-        .standard
-        #else
         UserDefaults(suiteName: Brand.group) ?? .standard
-        #endif
     }
     static func read() -> Self {
         guard let data = defaults.data(forKey: key), let value = try? JSONDecoder().decode(Self.self, from: data) else { return .empty }

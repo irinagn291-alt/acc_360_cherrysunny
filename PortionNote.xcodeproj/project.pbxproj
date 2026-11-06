@@ -11,10 +11,7 @@
 		219907B6EA8CFD75E3D55C31 /* FoodWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44ED63989BA0930E7AE8465 /* FoodWidget.swift */; };
 		2A6A2418DEAB5526F53DF63D /* Snapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1DABADED147B697C30931A /* Snapshot.swift */; };
 		2D7312D0C9B0A3695A8761B2 /* Scanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0ECDB5BCE34DB75DD629C56 /* Scanner.swift */; };
-		2DED9B030FE4F189CAE9ED50 /* Brand.swift in Sources */ = {isa = PBXBuildFile; fileRef = E563ACE398E4715F4DA0C2E3 /* Brand.swift */; };
 		3803C1FD5C532AC629DE2788 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 87C4EEB115D72632F1CAA4AA /* PrivacyInfo.xcprivacy */; };
-		414301387F5C2C5425753AD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B77C487DD5E73D7A0A4A5DB4 /* Assets.xcassets */; };
-		4E238BB9145C614688656FE0 /* CompanionHub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A3DD94440432B2A5A5EAE6 /* CompanionHub.swift */; };
 		5E0DD471E3719B8F199BFC05 /* Daybook.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F4BCEC3323BD01401A1879 /* Daybook.swift */; };
 		66D434E9E491E24AFF9BC6F4 /* Feature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015C58EE119E60DF8B0F4A6A /* Feature.swift */; };
 		6ED519768F9F9BA22278CDA7 /* CatalogJourney.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA9F958AD6AAB9DB90A66E1 /* CatalogJourney.swift */; };
@@ -26,15 +23,10 @@
 		99E64B0E16D2D014382B0B32 /* StarterCatalog.json in Resources */ = {isa = PBXBuildFile; fileRef = 532D19237CD1C1D7CB4F045C /* StarterCatalog.json */; };
 		A085DE9AD3B5B027926A3549 /* CatalogPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3A0FCC49EE769FAE637CD3 /* CatalogPicker.swift */; };
 		A38E8CAB684B9BA3297DE749 /* Brand.swift in Sources */ = {isa = PBXBuildFile; fileRef = E563ACE398E4715F4DA0C2E3 /* Brand.swift */; };
-		A838C4DDFB71F2951D03E73C /* WatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC396B1ED877EECF868F497 /* WatchApp.swift */; };
-		AB7734DA98B1FDE6207F4602 /* Snapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1DABADED147B697C30931A /* Snapshot.swift */; };
-		B1DB55B6B060CA01AE06D5CC /* PortionNoteWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 020C94530F68C0DE01E788B4 /* PortionNoteWatch.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		C6B6A9E9C8218BA6AEDF5B31 /* Snapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1DABADED147B697C30931A /* Snapshot.swift */; };
 		D6D379E1A83354FDD77292EB /* PortionEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B4C1AF6AF5593869A996A12 /* PortionEditor.swift */; };
-		DE3469C7D84266EDEB5E87AB /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 87C4EEB115D72632F1CAA4AA /* PrivacyInfo.xcprivacy */; };
 		DE364E9378F3D0A54F2DFA3D /* CompanionHub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A3DD94440432B2A5A5EAE6 /* CompanionHub.swift */; };
 		E6E5B9A7907C120B541CEB69 /* PortionNoteWidget.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 5BB86F5A8676130572F95487 /* PortionNoteWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		F9B4B4FD7CEEC113772A6D96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1D824AF7336654CD1DEC815 /* Assets.xcassets */; };
 		FB86D47FABCD7758D418F6A4 /* Brand.swift in Sources */ = {isa = PBXBuildFile; fileRef = E563ACE398E4715F4DA0C2E3 /* Brand.swift */; };
 		FD27EE6301DCFDA4F3EE82A7 /* DiaryWeek.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CDAD709D7ABC69811ED354 /* DiaryWeek.swift */; };
 /* End PBXBuildFile section */
@@ -61,13 +53,6 @@
 			remoteGlobalIDString = C22669EF9CBE97E2F6F28C06;
 			remoteInfo = PortionNoteWidget;
 		};
-		694002837E8E5B40BBC829DF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 81CAD2A1FBD44B06A62D8DF6 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 34921825269016D3B4668A90;
-			remoteInfo = PortionNoteWatch;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -82,22 +67,10 @@
 			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0FF98C622AB0E38DC5FA7A9F /* Embed Watch Content */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
-			dstSubfolderSpec = 16;
-			files = (
-				B1DB55B6B060CA01AE06D5CC /* PortionNoteWatch.app in Embed Watch Content */,
-			);
-			name = "Embed Watch Content";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		015C58EE119E60DF8B0F4A6A /* Feature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feature.swift; sourceTree = "<group>"; };
-		020C94530F68C0DE01E788B4 /* PortionNoteWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PortionNoteWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F12B33FB8058D66AF84DBA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		276B9F7AF2F8CD7371ECA286 /* PortionNoteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortionNoteTests.swift; sourceTree = "<group>"; };
 		29A3DD94440432B2A5A5EAE6 /* CompanionHub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanionHub.swift; sourceTree = "<group>"; };
@@ -106,14 +79,11 @@
 		5BB86F5A8676130572F95487 /* PortionNoteWidget.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; path = PortionNoteWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		6876090C32B16038D8C7EA2A /* PortionNoteTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = PortionNoteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B4C1AF6AF5593869A996A12 /* PortionEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortionEditor.swift; sourceTree = "<group>"; };
-		7BC396B1ED877EECF868F497 /* WatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchApp.swift; sourceTree = "<group>"; };
 		87C4EEB115D72632F1CAA4AA /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		9A069DF7B5B05E0CE01FF35E /* PortionNoteUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = PortionNoteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E1DABADED147B697C30931A /* Snapshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Snapshot.swift; sourceTree = "<group>"; };
 		A0ECDB5BCE34DB75DD629C56 /* Scanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scanner.swift; sourceTree = "<group>"; };
-		B77C487DD5E73D7A0A4A5DB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC3A0FCC49EE769FAE637CD3 /* CatalogPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogPicker.swift; sourceTree = "<group>"; };
-		C1D824AF7336654CD1DEC815 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C44ED63989BA0930E7AE8465 /* FoodWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodWidget.swift; sourceTree = "<group>"; };
 		C7CDAD709D7ABC69811ED354 /* DiaryWeek.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryWeek.swift; sourceTree = "<group>"; };
 		D04AAADC455DEECB7DF18A77 /* Paper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Paper.swift; sourceTree = "<group>"; };
@@ -167,11 +137,9 @@
 				4DD44E014A537DCBA7CB356F /* Companion */,
 				1EF69064D1FF20BFACAA8EC3 /* Config */,
 				FE20A9F0D6E88F0AA5775914 /* Phone */,
-				E53B04B562E9F8E1E8B42EF4 /* PortionNoteWatch */,
 				FC85AE9C85EB327B3ECC74E5 /* Shared */,
 				2F3D5B4C88816C1D3CB17F8B /* Tests */,
 				F7AF53BB8EF824A12E5FC30B /* UITests */,
-				D3FBDA96B588C48C176862BC /* Watch */,
 				100392990A2626E69326A20D /* Widget */,
 				985173B59BDA75B9DE8F7E3A /* Products */,
 			);
@@ -191,27 +159,9 @@
 				5A7E0FC1909C1A98FF4523FD /* PortionNote.app */,
 				6876090C32B16038D8C7EA2A /* PortionNoteTests.xctest */,
 				9A069DF7B5B05E0CE01FF35E /* PortionNoteUITests.xctest */,
-				020C94530F68C0DE01E788B4 /* PortionNoteWatch.app */,
 				5BB86F5A8676130572F95487 /* PortionNoteWidget.appex */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		D3FBDA96B588C48C176862BC /* Watch */ = {
-			isa = PBXGroup;
-			children = (
-				B77C487DD5E73D7A0A4A5DB4 /* Assets.xcassets */,
-				7BC396B1ED877EECF868F497 /* WatchApp.swift */,
-			);
-			path = Watch;
-			sourceTree = "<group>";
-		};
-		E53B04B562E9F8E1E8B42EF4 /* PortionNoteWatch */ = {
-			isa = PBXGroup;
-			children = (
-				C1D824AF7336654CD1DEC815 /* Assets.xcassets */,
-			);
-			path = PortionNoteWatch;
 			sourceTree = "<group>";
 		};
 		F7AF53BB8EF824A12E5FC30B /* UITests */ = {
@@ -255,12 +205,10 @@
 				66D48369027F039F884B1EFD /* Sources */,
 				C4DFA8CBED081826CB8B3431 /* Resources */,
 				04DF4D21A174B56E1390E231 /* Embed Foundation Extensions */,
-				0FF98C622AB0E38DC5FA7A9F /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				7E39732B002174325ABF7BE8 /* PBXTargetDependency */,
 				C15EE4886280B5FD2D2695A3 /* PBXTargetDependency */,
 			);
 			name = PortionNote;
@@ -268,24 +216,6 @@
 			);
 			productName = PortionNote;
 			productReference = 5A7E0FC1909C1A98FF4523FD /* PortionNote.app */;
-			productType = "com.apple.product-type.application";
-		};
-		34921825269016D3B4668A90 /* PortionNoteWatch */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = EE1C5717C8AE3ABE0A7C2B26 /* Build configuration list for PBXNativeTarget "PortionNoteWatch" */;
-			buildPhases = (
-				9C14BD3ECE333C5D4D90D9E8 /* Sources */,
-				5A03E2627AF35E2D68FD6A40 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = PortionNoteWatch;
-			packageProductDependencies = (
-			);
-			productName = PortionNoteWatch;
-			productReference = 020C94530F68C0DE01E788B4 /* PortionNoteWatch.app */;
 			productType = "com.apple.product-type.application";
 		};
 		6326AD3DC3F9EC6FDF996839 /* PortionNoteTests */ = {
@@ -354,9 +284,6 @@
 					0DDE8ECD895D607312845EB5 = {
 						ProvisioningStyle = Automatic;
 					};
-					34921825269016D3B4668A90 = {
-						ProvisioningStyle = Automatic;
-					};
 					6326AD3DC3F9EC6FDF996839 = {
 						ProvisioningStyle = Automatic;
 					};
@@ -384,7 +311,6 @@
 			projectRoot = "";
 			targets = (
 				0DDE8ECD895D607312845EB5 /* PortionNote */,
-				34921825269016D3B4668A90 /* PortionNoteWatch */,
 				C22669EF9CBE97E2F6F28C06 /* PortionNoteWidget */,
 				6326AD3DC3F9EC6FDF996839 /* PortionNoteTests */,
 				8AB85586918B6932A8A7BA80 /* PortionNoteUITests */,
@@ -393,16 +319,6 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		5A03E2627AF35E2D68FD6A40 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				414301387F5C2C5425753AD3 /* Assets.xcassets in Resources */,
-				F9B4B4FD7CEEC113772A6D96 /* Assets.xcassets in Resources */,
-				DE3469C7D84266EDEB5E87AB /* PrivacyInfo.xcprivacy in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		C4DFA8CBED081826CB8B3431 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -451,17 +367,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9C14BD3ECE333C5D4D90D9E8 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2DED9B030FE4F189CAE9ED50 /* Brand.swift in Sources */,
-				4E238BB9145C614688656FE0 /* CompanionHub.swift in Sources */,
-				AB7734DA98B1FDE6207F4602 /* Snapshot.swift in Sources */,
-				A838C4DDFB71F2951D03E73C /* WatchApp.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		CD5829B77E3120ABD8467610 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -488,11 +393,6 @@
 			target = 0DDE8ECD895D607312845EB5 /* PortionNote */;
 			targetProxy = 16868562C25CAC5ABA8994C8 /* PBXContainerItemProxy */;
 		};
-		7E39732B002174325ABF7BE8 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 34921825269016D3B4668A90 /* PortionNoteWatch */;
-			targetProxy = 694002837E8E5B40BBC829DF /* PBXContainerItemProxy */;
-		};
 		C15EE4886280B5FD2D2695A3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = C22669EF9CBE97E2F6F28C06 /* PortionNoteWidget */;
@@ -506,20 +406,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1879684C5018603C4278E82B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = Config/Watch.plist;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = app.portionnote.food.watchkitapp;
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = 4;
-			};
-			name = Debug;
-		};
 		1FB9DFFC54DD09401F0EC346 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -578,7 +464,6 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -596,7 +481,6 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -644,7 +528,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -668,11 +552,11 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 6.0;
-				WATCHOS_DEPLOYMENT_TARGET = 10.0;
 			};
 			name = Debug;
 		};
@@ -681,7 +565,6 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -746,7 +629,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -763,25 +646,11 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 6.0;
-				WATCHOS_DEPLOYMENT_TARGET = 10.0;
-			};
-			name = Release;
-		};
-		C65158608DC28C45FFF0C03E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = Config/Watch.plist;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = app.portionnote.food.watchkitapp;
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = 4;
 			};
 			name = Release;
 		};
@@ -790,7 +659,6 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -847,15 +715,6 @@
 			buildConfigurations = (
 				D198894FC1E13A4D4A9597C1 /* Debug */,
 				96DDCA448D1EFB5DBF562D56 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
-		};
-		EE1C5717C8AE3ABE0A7C2B26 /* Build configuration list for PBXNativeTarget "PortionNoteWatch" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1879684C5018603C4278E82B /* Debug */,
-				C65158608DC28C45FFF0C03E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;

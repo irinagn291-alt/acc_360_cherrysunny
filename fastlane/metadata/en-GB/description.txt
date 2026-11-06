@@ -4,4 +4,4 @@ The Day view groups entries by meal and shows totals for energy, protein, fat, c
 
 The catalogue includes six starter products and labels previously opened and stored on your device. Search online by name, brand or barcode, or scan a barcode on a supported device. You can also open the product's page on Open Food Facts.
 
-See today's summary in an iPhone widget, and view the summary and recent entries on a paired Apple Watch. The app interface is in English.
+See today's summary in an iPhone widget. The app interface is in English.

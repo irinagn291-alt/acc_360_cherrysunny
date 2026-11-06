@@ -1,4 +1,4 @@
-<!-- gf-brief source=475fac73c024f6c09ccbbfa6e83a47185370d5019f24d954b924d2026a7ea784 written=2026-11-07T00:34:59+03:00 -->
+<!-- gf-brief source=3eece917ac81d87a6801f9782e0f2021b12bac20504ab776a43cb88cc5ed4fef written=2026-11-07T01:40:34+03:00 -->
 # CherrySunny
 
 ## What it is
@@ -55,10 +55,6 @@ The editor shows “FOOD LABEL”, the product name and available brand. “View
 - “Close” dismisses the editor without saving. The keyboard’s “Done” dismisses the keyboard.
 - For an existing entry, “Delete entry” opens “Delete this portion from your journal?” with “Delete portion” and “Cancel”.
 
-### Apple Watch: “CherrySunny”
-
-The watch shows today’s journal summary, nutrition totals and, under “Today’s portions”, up to eight recent entries. Tapping an entry opens its name, meal and amount. “Refresh” requests the latest summary from the paired iPhone. Before a summary is available, it says “Nothing saved yet”, “Log a portion on iPhone.” and “Open CherrySunny on your paired iPhone to sync.”
-
 ### Home Screen widget: “Today’s portions”
 
 The small and medium widgets show today’s summary; the medium widget can also show the latest portion. The widget description is “Your daily nutrition totals and latest portions.” Tapping it opens today’s “Day” journal.
@@ -72,7 +68,7 @@ The small and medium widgets show today’s summary; the medium widget can also 
 - Review “Daily nutrition”, “Weekly nutrition”, “Daily entries”, “Days logged” and “Portions this week”.
 - View “In this portion” before saving.
 - Open the source with “View food label”.
-- See today’s portions on Apple Watch and in the “Today’s portions” widget.
+- See today’s portions in the “Today’s portions” widget.
 
 ## Behaviours that can look like bugs
 
@@ -88,7 +84,6 @@ The small and medium widgets show today’s summary; the medium widget can also 
 - “Available offline” grows as labels are opened; “Log it again” appears after logging foods and shows up to six recently logged products.
 - Missing nutrition data is shown as a dash; “≥” marks a partial total. Opening the printed package or “View food label” may provide more information.
 - A failed save or delete shows “Couldn’t save this entry” and “Your changes could not be saved. Try again.” Tap “Close” and retry.
-- Watch refresh can show “Waiting for the paired iPhone.”, “Checking iPhone…”, “Open the app on iPhone to start.”, “Up to date” or “iPhone unavailable. Try again later.” Open the app on the paired iPhone and retry “Refresh”.
 
 ## Starter content and resume
 
@@ -106,7 +101,7 @@ Login or accounts, in-app purchase, ads, analytics, an account deletion flow and
 
 ## Data and support
 
-Journal entries and opened product labels are stored on the device. Online searches send the entered query to Open Food Facts, and the app can open external product and attribution links. Today’s summary is also sent to the paired Apple Watch when available.
+Journal entries and opened product labels are stored on the device. Online searches send the entered query to Open Food Facts, and the app can open external product and attribution links. Today’s summary is shared locally with the Home Screen widget.
 
 There is no on-screen Contact or Support control.
 
@@ -120,7 +115,7 @@ It displays food-label nutrition values and calculated portion, daily and weekly
 
 The interface and date formatting use English with US formatting; weeks start on Monday. Online text search requests English results, and the catalog is not restricted to a particular storefront region.
 
-The app supports iPhone and iPad on iOS 17.0 or later. iPhone supports portrait and both landscape orientations; iPad also supports upside-down portrait. The companion supports watchOS 10.0 or later.
+The app supports iPhone and iPad on iOS 17.0 or later. iPhone supports portrait and both landscape orientations; iPad also supports upside-down portrait.
 
 ## Category
 
