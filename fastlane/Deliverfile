@@ -31,7 +31,7 @@ screenshots_path("./fastlane/screenshots")
 # patch below adds those codes so the folders are uploaded.
 ignore_language_directory_validation true
 overwrite_screenshots true
-screenshot_processing_timeout 600
+screenshot_processing_timeout 3600
 skip_app_version_update true
 
 submit_for_review false
