@@ -42,6 +42,7 @@ targets:
     - Shared
     - Companion
     - Config/PrivacyInfo.xcprivacy
+    - path: PortionNoteWatch
     settings:
       base:
         TARGETED_DEVICE_FAMILY: '4'
@@ -49,6 +50,8 @@ targets:
         INFOPLIST_FILE: Config/Watch.plist
         ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
         SKIP_INSTALL: 'YES'
+        MARKETING_VERSION: '1.0'
+        CURRENT_PROJECT_VERSION: '1'
   PortionNoteWidget:
     type: app-extension
     platform: iOS

@@ -34,6 +34,7 @@
 		DE3469C7D84266EDEB5E87AB /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 87C4EEB115D72632F1CAA4AA /* PrivacyInfo.xcprivacy */; };
 		DE364E9378F3D0A54F2DFA3D /* CompanionHub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A3DD94440432B2A5A5EAE6 /* CompanionHub.swift */; };
 		E6E5B9A7907C120B541CEB69 /* PortionNoteWidget.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 5BB86F5A8676130572F95487 /* PortionNoteWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F9B4B4FD7CEEC113772A6D96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1D824AF7336654CD1DEC815 /* Assets.xcassets */; };
 		FB86D47FABCD7758D418F6A4 /* Brand.swift in Sources */ = {isa = PBXBuildFile; fileRef = E563ACE398E4715F4DA0C2E3 /* Brand.swift */; };
 		FD27EE6301DCFDA4F3EE82A7 /* DiaryWeek.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CDAD709D7ABC69811ED354 /* DiaryWeek.swift */; };
 /* End PBXBuildFile section */
@@ -112,6 +113,7 @@
 		A0ECDB5BCE34DB75DD629C56 /* Scanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scanner.swift; sourceTree = "<group>"; };
 		B77C487DD5E73D7A0A4A5DB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC3A0FCC49EE769FAE637CD3 /* CatalogPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogPicker.swift; sourceTree = "<group>"; };
+		C1D824AF7336654CD1DEC815 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C44ED63989BA0930E7AE8465 /* FoodWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodWidget.swift; sourceTree = "<group>"; };
 		C7CDAD709D7ABC69811ED354 /* DiaryWeek.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryWeek.swift; sourceTree = "<group>"; };
 		D04AAADC455DEECB7DF18A77 /* Paper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Paper.swift; sourceTree = "<group>"; };
@@ -165,6 +167,7 @@
 				4DD44E014A537DCBA7CB356F /* Companion */,
 				1EF69064D1FF20BFACAA8EC3 /* Config */,
 				FE20A9F0D6E88F0AA5775914 /* Phone */,
+				E53B04B562E9F8E1E8B42EF4 /* PortionNoteWatch */,
 				FC85AE9C85EB327B3ECC74E5 /* Shared */,
 				2F3D5B4C88816C1D3CB17F8B /* Tests */,
 				F7AF53BB8EF824A12E5FC30B /* UITests */,
@@ -201,6 +204,14 @@
 				7BC396B1ED877EECF868F497 /* WatchApp.swift */,
 			);
 			path = Watch;
+			sourceTree = "<group>";
+		};
+		E53B04B562E9F8E1E8B42EF4 /* PortionNoteWatch */ = {
+			isa = PBXGroup;
+			children = (
+				C1D824AF7336654CD1DEC815 /* Assets.xcassets */,
+			);
+			path = PortionNoteWatch;
 			sourceTree = "<group>";
 		};
 		F7AF53BB8EF824A12E5FC30B /* UITests */ = {
@@ -387,6 +398,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				414301387F5C2C5425753AD3 /* Assets.xcassets in Resources */,
+				F9B4B4FD7CEEC113772A6D96 /* Assets.xcassets in Resources */,
 				DE3469C7D84266EDEB5E87AB /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -498,7 +510,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CURRENT_PROJECT_VERSION = 1;
 				INFOPLIST_FILE = Config/Watch.plist;
+				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = app.portionnote.food.watchkitapp;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -761,7 +775,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CURRENT_PROJECT_VERSION = 1;
 				INFOPLIST_FILE = Config/Watch.plist;
+				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = app.portionnote.food.watchkitapp;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
