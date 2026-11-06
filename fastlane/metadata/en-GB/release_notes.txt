@@ -1,0 +1,1 @@
+Record food portions and view daily and weekly nutrition totals.

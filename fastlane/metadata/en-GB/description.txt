@@ -1,0 +1,7 @@
+Record food portions with CherrySunny and see your nutrition totals by day and week. Choose a product from the catalogue, enter an amount, select a meal and date, and preview the nutrition before saving.
+
+The Day view groups entries by meal and shows totals for energy, protein, fat, carbohydrates, fibre, sugars and salt. The Week view offers a seven-day chart, counts of logged days and portions, and weekly nutrition totals. Shortcuts make it easy to log recently used products again.
+
+The catalogue includes six starter products and labels previously opened and stored on your device. Search online by name, brand or barcode, or scan a barcode on a supported device. You can also open the product's page on Open Food Facts.
+
+See today's summary in an iPhone widget, and view the summary and recent entries on a paired Apple Watch. The app interface is in English.
