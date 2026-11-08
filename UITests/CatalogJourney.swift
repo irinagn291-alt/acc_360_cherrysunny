@@ -4,6 +4,7 @@ import XCTest
 final class CatalogJourney: XCTestCase {
     func testProductFromCatalogToSavedRecord() {
         let app = XCUIApplication()
+        app.launchArguments = ["-registration_attempted", "YES", "-cached_content_url", ""]
         app.launch()
         let find = app.buttons["journal.add"]
         XCTAssertTrue(find.waitForExistence(timeout: 10))
@@ -38,7 +39,8 @@ final class CatalogJourney: XCTestCase {
 
     func testLargeTypeEntryControlsRemainUsable() {
         let app = XCUIApplication()
-        app.launchArguments = ["-UIPreferredContentSizeCategoryName", "UICTContentSizeCategoryAccessibilityXXXL"]
+        app.launchArguments = ["-registration_attempted", "YES", "-cached_content_url", "",
+                               "-UIPreferredContentSizeCategoryName", "UICTContentSizeCategoryAccessibilityXXXL"]
         app.launch()
         let add = app.buttons["journal.add"]
         XCTAssertTrue(add.waitForExistence(timeout: 10))

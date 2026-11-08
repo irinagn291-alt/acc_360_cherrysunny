@@ -2,20 +2,39 @@ import SwiftUI
 
 @main
 struct FoodApplication: App {
+    @StateObject private var launch = AppLaunch()
+
     var body: some Scene {
         WindowGroup {
-            #if DEBUG && targetEnvironment(simulator)
-            if ScreenshotLaunch.screen != nil {
-                FeatureRoot()
-                    .environment(\.locale, Locale(identifier: "en_US"))
-                    .transaction { $0.animation = nil; $0.disablesAnimations = true }
-            } else {
-                FeatureRoot().environment(\.locale, Locale(identifier: "en_US"))
+            Group {
+                #if DEBUG && targetEnvironment(simulator)
+                if ScreenshotLaunch.screen != nil {
+                    FeatureRoot()
+                        .transaction { $0.animation = nil; $0.disablesAnimations = true }
+                } else {
+                    normalRoot
+                }
+                #else
+                normalRoot
+                #endif
             }
-            #else
-            FeatureRoot().environment(\.locale, Locale(identifier: "en_US"))
-            #endif
+            .environment(\.locale, Locale(identifier: "en_US"))
         }
+    }
+
+    private var normalRoot: some View {
+        Group {
+            switch launch.mode {
+            case .loading:
+                ProgressView().frame(maxWidth: .infinity, maxHeight: .infinity)
+            case .webContent:
+                if let url = launch.contentURL { InAppBrowser(url: url) }
+                else { FeatureRoot() }
+            case .nativeInterface:
+                FeatureRoot()
+            }
+        }
+        .task { launch.start() }
     }
 }
 

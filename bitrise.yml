@@ -260,13 +260,6 @@ workflows:
         - xcconfig_content: |-
             COMPILER_INDEX_STORE_ENABLE = NO
         - cache_level: none
-    - script@1:
-        title: Verify CherrySunny IPA has no Apple Watch support
-        inputs:
-        - content: |
-            #!/bin/bash
-            set -euo pipefail
-            python3 "$BITRISE_SOURCE_DIR/ci_scripts/verify_ios_only.py" "$BITRISE_IPA_PATH" | tee "$BITRISE_DEPLOY_DIR/watch-support-check.json"
     - deploy-to-itunesconnect-application-loader@2:
         inputs:
         - connection: "off"

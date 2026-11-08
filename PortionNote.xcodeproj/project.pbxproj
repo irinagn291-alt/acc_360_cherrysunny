@@ -11,7 +11,12 @@
 		219907B6EA8CFD75E3D55C31 /* FoodWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44ED63989BA0930E7AE8465 /* FoodWidget.swift */; };
 		2A6A2418DEAB5526F53DF63D /* Snapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1DABADED147B697C30931A /* Snapshot.swift */; };
 		2D7312D0C9B0A3695A8761B2 /* Scanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0ECDB5BCE34DB75DD629C56 /* Scanner.swift */; };
+		2DDF079064679942C119BC37 /* BrowserSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D7C74CB541AE284EF36C64 /* BrowserSession.swift */; };
 		3803C1FD5C532AC629DE2788 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 87C4EEB115D72632F1CAA4AA /* PrivacyInfo.xcprivacy */; };
+		47932EFE8C9E590CC03C6958 /* BrowserJourney.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B5B8F7F33868C9A7DD6944 /* BrowserJourney.swift */; };
+		48D75EFF2E56D3D1C061FC22 /* AppLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBAA9562390521DD00D2A06 /* AppLaunchTests.swift */; };
+		49727C9FBE9CA53881DE8572 /* AppEndpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB80A1368AA19292007611A /* AppEndpoints.swift */; };
+		4A62E7EF4456FF8A9B2407EB /* RegistrationClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF4D51A81587F501F951A2D /* RegistrationClient.swift */; };
 		5E0DD471E3719B8F199BFC05 /* Daybook.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F4BCEC3323BD01401A1879 /* Daybook.swift */; };
 		66D434E9E491E24AFF9BC6F4 /* Feature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015C58EE119E60DF8B0F4A6A /* Feature.swift */; };
 		6ED519768F9F9BA22278CDA7 /* CatalogJourney.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA9F958AD6AAB9DB90A66E1 /* CatalogJourney.swift */; };
@@ -21,11 +26,13 @@
 		81643EEF4D28D333AA6948F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F12B33FB8058D66AF84DBA5 /* Assets.xcassets */; };
 		9456923B3A0B54F58BD9AD29 /* OpenFoodFacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = F787F3E0D233932A177B0E53 /* OpenFoodFacts.swift */; };
 		99E64B0E16D2D014382B0B32 /* StarterCatalog.json in Resources */ = {isa = PBXBuildFile; fileRef = 532D19237CD1C1D7CB4F045C /* StarterCatalog.json */; };
+		9FDCCE25D69DE4AE21779176 /* AppLaunch.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5CA3A1710D5445D0FAB28B2 /* AppLaunch.swift */; };
 		A085DE9AD3B5B027926A3549 /* CatalogPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3A0FCC49EE769FAE637CD3 /* CatalogPicker.swift */; };
 		A38E8CAB684B9BA3297DE749 /* Brand.swift in Sources */ = {isa = PBXBuildFile; fileRef = E563ACE398E4715F4DA0C2E3 /* Brand.swift */; };
 		C6B6A9E9C8218BA6AEDF5B31 /* Snapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1DABADED147B697C30931A /* Snapshot.swift */; };
 		D6D379E1A83354FDD77292EB /* PortionEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B4C1AF6AF5593869A996A12 /* PortionEditor.swift */; };
 		DE364E9378F3D0A54F2DFA3D /* CompanionHub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A3DD94440432B2A5A5EAE6 /* CompanionHub.swift */; };
+		E4E2AADB467F061F2ABFDB7B /* InAppBrowser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C27EC59225D1F3FE47FD53A /* InAppBrowser.swift */; };
 		E6E5B9A7907C120B541CEB69 /* PortionNoteWidget.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 5BB86F5A8676130572F95487 /* PortionNoteWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		FB86D47FABCD7758D418F6A4 /* Brand.swift in Sources */ = {isa = PBXBuildFile; fileRef = E563ACE398E4715F4DA0C2E3 /* Brand.swift */; };
 		FD27EE6301DCFDA4F3EE82A7 /* DiaryWeek.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CDAD709D7ABC69811ED354 /* DiaryWeek.swift */; };
@@ -71,15 +78,21 @@
 
 /* Begin PBXFileReference section */
 		015C58EE119E60DF8B0F4A6A /* Feature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feature.swift; sourceTree = "<group>"; };
+		05D7C74CB541AE284EF36C64 /* BrowserSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowserSession.swift; sourceTree = "<group>"; };
 		0F12B33FB8058D66AF84DBA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		276B9F7AF2F8CD7371ECA286 /* PortionNoteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortionNoteTests.swift; sourceTree = "<group>"; };
 		29A3DD94440432B2A5A5EAE6 /* CompanionHub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanionHub.swift; sourceTree = "<group>"; };
+		2C27EC59225D1F3FE47FD53A /* InAppBrowser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InAppBrowser.swift; sourceTree = "<group>"; };
+		39B5B8F7F33868C9A7DD6944 /* BrowserJourney.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowserJourney.swift; sourceTree = "<group>"; };
+		4BBAA9562390521DD00D2A06 /* AppLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLaunchTests.swift; sourceTree = "<group>"; };
 		532D19237CD1C1D7CB4F045C /* StarterCatalog.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = StarterCatalog.json; sourceTree = "<group>"; };
-		5A7E0FC1909C1A98FF4523FD /* PortionNote.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = PortionNote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A7E0FC1909C1A98FF4523FD /* PortionNote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PortionNote.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BB86F5A8676130572F95487 /* PortionNoteWidget.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; path = PortionNoteWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		6876090C32B16038D8C7EA2A /* PortionNoteTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = PortionNoteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FB80A1368AA19292007611A /* AppEndpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEndpoints.swift; sourceTree = "<group>"; };
 		7B4C1AF6AF5593869A996A12 /* PortionEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortionEditor.swift; sourceTree = "<group>"; };
-		87C4EEB115D72632F1CAA4AA /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		87C4EEB115D72632F1CAA4AA /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		8FF4D51A81587F501F951A2D /* RegistrationClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationClient.swift; sourceTree = "<group>"; };
 		9A069DF7B5B05E0CE01FF35E /* PortionNoteUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = PortionNoteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E1DABADED147B697C30931A /* Snapshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Snapshot.swift; sourceTree = "<group>"; };
 		A0ECDB5BCE34DB75DD629C56 /* Scanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scanner.swift; sourceTree = "<group>"; };
@@ -90,6 +103,7 @@
 		D9F4BCEC3323BD01401A1879 /* Daybook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Daybook.swift; sourceTree = "<group>"; };
 		E28CD67BCE822F066852218F /* Application.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Application.swift; sourceTree = "<group>"; };
 		E563ACE398E4715F4DA0C2E3 /* Brand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Brand.swift; sourceTree = "<group>"; };
+		E5CA3A1710D5445D0FAB28B2 /* AppLaunch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLaunch.swift; sourceTree = "<group>"; };
 		F787F3E0D233932A177B0E53 /* OpenFoodFacts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenFoodFacts.swift; sourceTree = "<group>"; };
 		FFA9F958AD6AAB9DB90A66E1 /* CatalogJourney.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogJourney.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -125,6 +139,7 @@
 		2F3D5B4C88816C1D3CB17F8B /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				4BBAA9562390521DD00D2A06 /* AppLaunchTests.swift */,
 				276B9F7AF2F8CD7371ECA286 /* PortionNoteTests.swift */,
 			);
 			path = Tests;
@@ -167,6 +182,7 @@
 		F7AF53BB8EF824A12E5FC30B /* UITests */ = {
 			isa = PBXGroup;
 			children = (
+				39B5B8F7F33868C9A7DD6944 /* BrowserJourney.swift */,
 				FFA9F958AD6AAB9DB90A66E1 /* CatalogJourney.swift */,
 			);
 			path = UITests;
@@ -184,13 +200,18 @@
 		FE20A9F0D6E88F0AA5775914 /* Phone */ = {
 			isa = PBXGroup;
 			children = (
+				6FB80A1368AA19292007611A /* AppEndpoints.swift */,
+				E5CA3A1710D5445D0FAB28B2 /* AppLaunch.swift */,
 				E28CD67BCE822F066852218F /* Application.swift */,
 				0F12B33FB8058D66AF84DBA5 /* Assets.xcassets */,
+				05D7C74CB541AE284EF36C64 /* BrowserSession.swift */,
 				D9F4BCEC3323BD01401A1879 /* Daybook.swift */,
 				C7CDAD709D7ABC69811ED354 /* DiaryWeek.swift */,
 				015C58EE119E60DF8B0F4A6A /* Feature.swift */,
+				2C27EC59225D1F3FE47FD53A /* InAppBrowser.swift */,
 				D04AAADC455DEECB7DF18A77 /* Paper.swift */,
 				7B4C1AF6AF5593869A996A12 /* PortionEditor.swift */,
+				8FF4D51A81587F501F951A2D /* RegistrationClient.swift */,
 			);
 			path = Phone;
 			sourceTree = "<group>";
@@ -344,6 +365,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48D75EFF2E56D3D1C061FC22 /* AppLaunchTests.swift in Sources */,
 				7D071EB97697AC8E7DB716C2 /* PortionNoteTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -352,16 +374,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49727C9FBE9CA53881DE8572 /* AppEndpoints.swift in Sources */,
+				9FDCCE25D69DE4AE21779176 /* AppLaunch.swift in Sources */,
 				7F7FDEA4AEAD43C9E4F7333C /* Application.swift in Sources */,
 				A38E8CAB684B9BA3297DE749 /* Brand.swift in Sources */,
+				2DDF079064679942C119BC37 /* BrowserSession.swift in Sources */,
 				A085DE9AD3B5B027926A3549 /* CatalogPicker.swift in Sources */,
 				DE364E9378F3D0A54F2DFA3D /* CompanionHub.swift in Sources */,
 				5E0DD471E3719B8F199BFC05 /* Daybook.swift in Sources */,
 				FD27EE6301DCFDA4F3EE82A7 /* DiaryWeek.swift in Sources */,
 				66D434E9E491E24AFF9BC6F4 /* Feature.swift in Sources */,
+				E4E2AADB467F061F2ABFDB7B /* InAppBrowser.swift in Sources */,
 				9456923B3A0B54F58BD9AD29 /* OpenFoodFacts.swift in Sources */,
 				017220AE5BC22A84A0E94754 /* Paper.swift in Sources */,
 				D6D379E1A83354FDD77292EB /* PortionEditor.swift in Sources */,
+				4A62E7EF4456FF8A9B2407EB /* RegistrationClient.swift in Sources */,
 				2D7312D0C9B0A3695A8761B2 /* Scanner.swift in Sources */,
 				2A6A2418DEAB5526F53DF63D /* Snapshot.swift in Sources */,
 			);
@@ -371,6 +398,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47932EFE8C9E590CC03C6958 /* BrowserJourney.swift in Sources */,
 				6ED519768F9F9BA22278CDA7 /* CatalogJourney.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -431,6 +459,7 @@
 				CODE_SIGN_ENTITLEMENTS = Config/Shared.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Config/Phone.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CherrySunny;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -464,6 +493,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -481,6 +511,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -528,7 +559,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -547,7 +578,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -565,6 +596,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -584,6 +616,7 @@
 				CODE_SIGN_ENTITLEMENTS = Config/Shared.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Config/Phone.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CherrySunny;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -629,7 +662,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -642,7 +675,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -659,6 +692,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
